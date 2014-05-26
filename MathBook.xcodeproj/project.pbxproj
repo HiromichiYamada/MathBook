@@ -21,6 +21,8 @@
 		25FC678B1930A1B10022D904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC676D1930A1B10022D904 /* UIKit.framework */; };
 		25FC67931930A1B10022D904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FC67911930A1B10022D904 /* InfoPlist.strings */; };
 		25FC67951930A1B10022D904 /* MathBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC67941930A1B10022D904 /* MathBookTests.m */; };
+		25FC67A01930A2CC0022D904 /* MBQuizListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC679F1930A2CC0022D904 /* MBQuizListViewController.m */; };
+		25FC67A31930BDEE0022D904 /* MBQuizObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC67A21930BDEE0022D904 /* MBQuizObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		25FC67901930A1B10022D904 /* MathBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathBookTests-Info.plist"; sourceTree = "<group>"; };
 		25FC67921930A1B10022D904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25FC67941930A1B10022D904 /* MathBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathBookTests.m; sourceTree = "<group>"; };
+		25FC679E1930A2CC0022D904 /* MBQuizListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBQuizListViewController.h; sourceTree = "<group>"; };
+		25FC679F1930A2CC0022D904 /* MBQuizListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBQuizListViewController.m; sourceTree = "<group>"; };
+		25FC67A11930BDEE0022D904 /* MBQuizObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBQuizObject.h; sourceTree = "<group>"; };
+		25FC67A21930BDEE0022D904 /* MBQuizObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBQuizObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				25FC677B1930A1B10022D904 /* Main.storyboard */,
 				25FC677E1930A1B10022D904 /* MBViewController.h */,
 				25FC677F1930A1B10022D904 /* MBViewController.m */,
+				25FC679E1930A2CC0022D904 /* MBQuizListViewController.h */,
+				25FC679F1930A2CC0022D904 /* MBQuizListViewController.m */,
+				25FC67A11930BDEE0022D904 /* MBQuizObject.h */,
+				25FC67A21930BDEE0022D904 /* MBQuizObject.m */,
 				25FC67811930A1B10022D904 /* Images.xcassets */,
 				25FC67701930A1B10022D904 /* Supporting Files */,
 			);
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FC67A01930A2CC0022D904 /* MBQuizListViewController.m in Sources */,
 				25FC67761930A1B10022D904 /* main.m in Sources */,
+				25FC67A31930BDEE0022D904 /* MBQuizObject.m in Sources */,
 				25FC67801930A1B10022D904 /* MBViewController.m in Sources */,
 				25FC677A1930A1B10022D904 /* MBAppDelegate.m in Sources */,
 			);
